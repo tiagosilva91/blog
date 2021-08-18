@@ -3,10 +3,13 @@
   
     > a {
       display:block;
+      
+     
     }
   
     a + a {
       margin-top: 3rem;
+      
     }
   
     button {
@@ -26,6 +29,10 @@
       font-size:1.75rem;
       font-weight: bold;
       color:var(--heading);
+      transition: color(2s);
+      &:hover{
+        color:#BBBBBB
+      }
     }
   
     p{
@@ -50,4 +57,5 @@
         }
       }
     }
+    
   }
